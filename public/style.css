@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+}
+
+.middle {
+    text-align: center;
+    list-style-type: none;
+}
+
+.container {
+    width: 700px;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.document {
+    list-style-image: url('./images/file-check-fill.svg');
+}
+
+.passport {
+    list-style-image: url('./images/passport-fill.svg');
+}
+
+.credit-card {
+    list-style-image: url('./images/credit-card-fill.svg');
+}
+
+.wallet {
+    list-style-image: url('./images/wallet-fill.svg');
+}
+
+.phone {
+    list-style-image: url('./images/phone-vibrate.svg');
+}
+
+.email {
+    list-style-image: url('./images/envelope-at.svg');
+}
+
+.location {
+    list-style-image: url('./images/geo-alt.svg');
+}
